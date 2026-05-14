@@ -30,8 +30,8 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apiserver/pkg/endpoints/handlers/responsewriters"
-	"k8s.io/apiserver/pkg/server/mux"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/handlers/responsewriters"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/mux"
 )
 
 // APIServerHandlers holds the different http.Handlers used by the API server.

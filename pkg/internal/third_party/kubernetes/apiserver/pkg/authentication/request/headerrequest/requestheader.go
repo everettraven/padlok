@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/apiserver/pkg/authentication/authenticator"
-	x509request "k8s.io/apiserver/pkg/authentication/request/x509"
-	"k8s.io/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
+	x509request "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/request/x509"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
 )
 
 // StringSliceProvider is a way to get a string slice value.  It is heavily used for authentication headers among other places.

@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"time"
 
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/apiserver/pkg/features"
-	"k8s.io/apiserver/pkg/storage"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 
 	"k8s.io/klog/v2"
 )

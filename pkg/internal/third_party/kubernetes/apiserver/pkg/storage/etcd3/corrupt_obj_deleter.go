@@ -28,8 +28,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apiserver/pkg/storage"
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 	"k8s.io/klog/v2"
 )
 

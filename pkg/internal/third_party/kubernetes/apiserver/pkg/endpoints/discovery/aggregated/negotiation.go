@@ -19,11 +19,11 @@ package aggregated
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	genericfeatures "k8s.io/apiserver/pkg/features"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	genericfeatures "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 )
 
-// Interface is from "k8s.io/apiserver/pkg/endpoints/handlers/negotiation"
+// Interface is from "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/handlers/negotiation"
 
 // DiscoveryEndpointRestrictions allows requests to /apis to provide a Content Negotiation GVK for aggregated discovery.
 var DiscoveryEndpointRestrictions = discoveryEndpointRestrictions{}

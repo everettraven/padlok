@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/natefinch/lumberjack.v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	auditv1 "k8s.io/apiserver/pkg/apis/audit/v1"
-	"k8s.io/apiserver/pkg/server"
+	auditv1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server"
 	v1 "k8s.io/client-go/tools/clientcmd/api/v1"
 )
 

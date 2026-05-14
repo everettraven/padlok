@@ -24,8 +24,8 @@ import (
 	"k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apiserver/pkg/endpoints/handlers/responsewriters"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/handlers/responsewriters"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 	"k8s.io/client-go/kubernetes/scheme"
 )
 

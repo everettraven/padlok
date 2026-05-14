@@ -31,8 +31,8 @@ import (
 	"github.com/google/cel-go/ext"
 	exprpb "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 
-	"k8s.io/apiserver/pkg/authorization/authorizer"
-	apiservercel "k8s.io/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/authorizer"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 )
 
 const (

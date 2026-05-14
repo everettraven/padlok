@@ -19,8 +19,8 @@ package debug
 import (
 	"time"
 
-	"k8s.io/apiserver/pkg/endpoints/request"
-	flowcontrolrequest "k8s.io/apiserver/pkg/util/flowcontrol/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	flowcontrolrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 )
 
 // QueueSetDump is an instant dump of queue-set.

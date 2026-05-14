@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apiserver/pkg/admission/plugin/manifest/metrics"
-	"k8s.io/apiserver/pkg/admission/plugin/policy/generic"
-	"k8s.io/apiserver/pkg/util/filesystem"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/manifest/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/generic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/filesystem"
 	"k8s.io/klog/v2"
 )
 

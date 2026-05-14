@@ -40,11 +40,11 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/apiserver/pkg/apis/example"
-	"k8s.io/apiserver/pkg/features"
-	"k8s.io/apiserver/pkg/storage"
-	"k8s.io/apiserver/pkg/storage/value"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	"k8s.io/utils/ptr"
 )
 

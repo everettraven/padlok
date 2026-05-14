@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/apiserver/pkg/endpoints/responsewriter"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/responsewriter"
 )
 
 var (

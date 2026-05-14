@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
-	serverstore "k8s.io/apiserver/pkg/server/storage"
+	serverstore "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/storage"
 )
 
 func TestParseRuntimeConfig(t *testing.T) {

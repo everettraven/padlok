@@ -29,8 +29,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apiserver/pkg/apis/apiserver"
-	"k8s.io/apiserver/pkg/server/egressselector/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/egressselector/metrics"
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/component-base/metrics/testutil"

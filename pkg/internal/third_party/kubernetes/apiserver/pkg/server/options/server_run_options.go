@@ -26,9 +26,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/server"
-	"k8s.io/apiserver/pkg/util/compatibility"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/compatibility"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	basecompatibility "k8s.io/component-base/compatibility"
 
 	"github.com/spf13/pflag"

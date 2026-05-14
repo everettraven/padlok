@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/testutil"
 )

@@ -18,7 +18,7 @@ package v1
 
 import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
-	example "k8s.io/apiserver/pkg/apis/example"
+	example "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example"
 )
 
 func Convert_example_ReplicaSetSpec_To_v1_ReplicaSetSpec(in *example.ReplicaSetSpec, out *ReplicaSetSpec, s conversion.Scope) error {

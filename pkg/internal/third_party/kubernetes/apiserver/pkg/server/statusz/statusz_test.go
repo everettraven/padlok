@@ -32,16 +32,16 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apimachinery/pkg/util/yaml"
-	"k8s.io/apiserver/pkg/endpoints/metrics"
-	"k8s.io/apiserver/pkg/features"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/component-base/metrics/testutil"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	v1alpha1 "k8s.io/apiserver/pkg/server/statusz/api/v1alpha1"
-	v1beta1 "k8s.io/apiserver/pkg/server/statusz/api/v1beta1"
+	v1alpha1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/statusz/api/v1alpha1"
+	v1beta1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/statusz/api/v1beta1"
 )
 
 const wantTmpl = `

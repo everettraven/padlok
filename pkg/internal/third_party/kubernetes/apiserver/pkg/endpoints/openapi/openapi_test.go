@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	openapitesting "k8s.io/apiserver/pkg/endpoints/openapi/testing"
+	openapitesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/openapi/testing"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )
 

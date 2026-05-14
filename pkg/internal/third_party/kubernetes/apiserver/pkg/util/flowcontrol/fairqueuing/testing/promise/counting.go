@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/util/flowcontrol/counter"
-	promiseifc "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/counter"
+	promiseifc "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
 )
 
 // countingPromise implements the WriteOnce interface.

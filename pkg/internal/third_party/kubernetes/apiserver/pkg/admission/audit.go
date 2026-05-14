@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"k8s.io/apiserver/pkg/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
 )
 
 // auditHandler logs annotations set by other admission handlers

@@ -36,9 +36,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/apiserver/pkg/apis/example"
-	"k8s.io/apiserver/pkg/storage"
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 )
 
 // CreateObjList will create a list from the array of objects.

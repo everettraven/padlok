@@ -17,7 +17,7 @@ limitations under the License.
 package util
 
 import (
-	"k8s.io/apiserver/pkg/admission/plugin/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook"
 )
 
 // HasAdmissionReviewVersion check whether a version is accepted by a given webhook.

@@ -20,7 +20,7 @@ import (
 	"net/http"
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apiserver/pkg/authentication/authenticator"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
 )
 
 // unionAuthRequestHandler authenticates requests using a chain of authenticator.Requests

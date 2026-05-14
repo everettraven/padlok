@@ -17,14 +17,14 @@ limitations under the License.
 package routes
 
 import (
-	handlersmetrics "k8s.io/apiserver/pkg/endpoints/handlers/metrics"
-	apimetrics "k8s.io/apiserver/pkg/endpoints/metrics"
-	"k8s.io/apiserver/pkg/server/mux"
-	cachermetrics "k8s.io/apiserver/pkg/storage/cacher/metrics"
-	etcd3metrics "k8s.io/apiserver/pkg/storage/etcd3/metrics"
-	flowcontrolmetrics "k8s.io/apiserver/pkg/util/flowcontrol/metrics"
-	peerproxymetrics "k8s.io/apiserver/pkg/util/peerproxy/metrics"
-	proxymetrics "k8s.io/apiserver/pkg/util/proxy/metrics"
+	handlersmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/handlers/metrics"
+	apimetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/mux"
+	cachermetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher/metrics"
+	etcd3metrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/metrics"
+	flowcontrolmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
+	peerproxymetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/peerproxy/metrics"
+	proxymetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/proxy/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 )
 

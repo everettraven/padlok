@@ -27,7 +27,7 @@ import (
 
 	apimachineryvalidation "k8s.io/apimachinery/pkg/api/validation"
 	"k8s.io/apimachinery/pkg/util/validation"
-	apiservercel "k8s.io/apiserver/pkg/cel"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 	"k8s.io/kube-openapi/pkg/validation/strfmt"
 )
 

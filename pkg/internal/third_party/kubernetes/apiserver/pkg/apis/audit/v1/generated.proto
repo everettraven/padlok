@@ -27,7 +27,7 @@ import "k8s.io/apimachinery/pkg/runtime/generated.proto";
 import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
-option go_package = "k8s.io/apiserver/pkg/apis/audit/v1";
+option go_package = "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit/v1";
 
 message AuthenticationMetadata {
   // ImpersonationConstraint is the verb associated with the constrained impersonation mode that was used to authorize

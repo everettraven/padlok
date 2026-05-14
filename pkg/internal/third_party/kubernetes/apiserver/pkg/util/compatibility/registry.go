@@ -18,7 +18,7 @@ package compatibility
 
 import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	basecompatibility "k8s.io/component-base/compatibility"
 )
 

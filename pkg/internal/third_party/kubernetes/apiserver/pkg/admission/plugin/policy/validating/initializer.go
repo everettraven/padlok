@@ -19,7 +19,7 @@ package validating
 import (
 	"context"
 
-	"k8s.io/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
 )
 
 type CELPolicyEvaluator interface {

@@ -41,11 +41,11 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	utilversion "k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apimachinery/pkg/version"
-	apidiscoveryv2conversion "k8s.io/apiserver/pkg/apis/apidiscovery/v2"
-	discoveryendpoint "k8s.io/apiserver/pkg/endpoints/discovery/aggregated"
-	"k8s.io/apiserver/pkg/endpoints/request"
-	genericfeatures "k8s.io/apiserver/pkg/features"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	apidiscoveryv2conversion "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apidiscovery/v2"
+	discoveryendpoint "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/discovery/aggregated"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	genericfeatures "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	featuregatetesting "k8s.io/component-base/featuregate/testing"
 )
 

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	fcmetrics "k8s.io/apiserver/pkg/util/flowcontrol/metrics"
+	fcmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
 
 	"k8s.io/utils/clock"
 )

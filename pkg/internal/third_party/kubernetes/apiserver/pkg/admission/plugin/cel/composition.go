@@ -28,10 +28,10 @@ import (
 	v1 "k8s.io/api/admission/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/apiserver/pkg/admission"
-	apiservercel "k8s.io/apiserver/pkg/cel"
-	"k8s.io/apiserver/pkg/cel/environment"
-	"k8s.io/apiserver/pkg/cel/lazy"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/lazy"
 )
 
 const variablesTypeName = "kubernetes.variables"

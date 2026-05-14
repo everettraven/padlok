@@ -26,9 +26,9 @@ import (
 	"github.com/google/cel-go/common/types/ref"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/apiserver/pkg/cel/common"
-	"k8s.io/apiserver/pkg/cel/environment"
-	"k8s.io/apiserver/pkg/cel/mutation/dynamic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/mutation/dynamic"
 )
 
 func TestTypeResolver(t *testing.T) {

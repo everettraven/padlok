@@ -18,10 +18,10 @@ package delegator
 
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apiserver/pkg/features"
-	"k8s.io/apiserver/pkg/storage"
-	etcdfeature "k8s.io/apiserver/pkg/storage/feature"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	etcdfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/feature"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 )
 
 func ShouldDelegateListMeta(opts *metav1.ListOptions, cache Helper) (Result, error) {

@@ -18,7 +18,7 @@ package generic
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	quota "k8s.io/apiserver/pkg/quota/v1"
+	quota "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/quota/v1"
 )
 
 // implements a basic configuration

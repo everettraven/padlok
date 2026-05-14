@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/crypto/nacl/secretbox"
 
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 )
 
 // secretbox implements at rest encryption of the provided values given a 32 byte secret key.

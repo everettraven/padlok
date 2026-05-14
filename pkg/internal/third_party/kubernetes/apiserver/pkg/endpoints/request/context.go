@@ -20,7 +20,7 @@ import (
 	"context"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
 )
 
 // The key type is unexported to prevent collisions

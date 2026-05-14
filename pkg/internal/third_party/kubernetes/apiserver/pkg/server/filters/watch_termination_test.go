@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 )
 
 func TestWithWatchTerminationDuringShutdown(t *testing.T) {

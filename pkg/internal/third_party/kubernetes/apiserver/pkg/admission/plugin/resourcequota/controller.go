@@ -33,10 +33,10 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apiserver/pkg/admission"
-	resourcequotaapi "k8s.io/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
-	quota "k8s.io/apiserver/pkg/quota/v1"
-	"k8s.io/apiserver/pkg/quota/v1/generic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	resourcequotaapi "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
+	quota "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/quota/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/quota/v1/generic"
 	"k8s.io/client-go/util/workqueue"
 )
 

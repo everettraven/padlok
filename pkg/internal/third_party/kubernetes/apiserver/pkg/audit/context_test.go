@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	authnv1 "k8s.io/api/authentication/v1"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

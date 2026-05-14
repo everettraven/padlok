@@ -23,10 +23,10 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 	"go.opentelemetry.io/otel/trace"
-	"k8s.io/apiserver/pkg/audit"
-	"k8s.io/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 
-	"k8s.io/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
 	tracing "k8s.io/component-base/tracing"
 )
 

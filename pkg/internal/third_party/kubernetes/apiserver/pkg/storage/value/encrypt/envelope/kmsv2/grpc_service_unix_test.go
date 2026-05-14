@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/uuid"
-	"k8s.io/apiserver/pkg/storage/value/encrypt/envelope/metrics"
-	mock "k8s.io/apiserver/pkg/storage/value/encrypt/envelope/testing/v2"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value/encrypt/envelope/metrics"
+	mock "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value/encrypt/envelope/testing/v2"
 	"k8s.io/component-base/metrics/testutil"
 	kmsservice "k8s.io/kms/pkg/service"
 )

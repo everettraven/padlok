@@ -18,7 +18,7 @@ package openapi
 
 import (
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/apiserver/pkg/cel/common"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )
 

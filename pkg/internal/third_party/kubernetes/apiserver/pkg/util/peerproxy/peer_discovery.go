@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apiserver/pkg/authentication/user"
-	peerproxymetrics "k8s.io/apiserver/pkg/util/peerproxy/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
+	peerproxymetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/peerproxy/metrics"
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog/v2"
@@ -35,8 +35,8 @@ import (
 	apidiscoveryv2 "k8s.io/api/apidiscovery/v2"
 	v1 "k8s.io/api/coordination/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
-	responsewriterutil "k8s.io/apiserver/pkg/util/responsewriter"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	responsewriterutil "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/responsewriter"
 )
 
 const (

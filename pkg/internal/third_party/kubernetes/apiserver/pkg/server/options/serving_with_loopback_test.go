@@ -24,8 +24,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apiserver/pkg/server"
-	"k8s.io/apiserver/pkg/server/healthz"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/healthz"
 	"k8s.io/client-go/rest"
 	clocktesting "k8s.io/utils/clock/testing"
 	netutils "k8s.io/utils/net"

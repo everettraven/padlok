@@ -18,7 +18,7 @@ package validating
 
 import (
 	celgo "github.com/google/cel-go/cel"
-	"k8s.io/apiserver/pkg/admission/plugin/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/cel"
 )
 
 var _ cel.ExpressionAccessor = (*MessageExpressionCondition)(nil)

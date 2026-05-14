@@ -21,8 +21,8 @@ import (
 
 	admissionv1 "k8s.io/api/admission/v1"
 	v1 "k8s.io/api/core/v1"
-	"k8s.io/apiserver/pkg/admission"
-	"k8s.io/apiserver/pkg/cel/environment"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
 )
 
 // mutatingCompiler provides a MutatingCompiler implementation.

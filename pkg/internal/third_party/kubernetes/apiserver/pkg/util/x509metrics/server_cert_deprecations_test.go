@@ -30,7 +30,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"k8s.io/apiserver/pkg/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/testutil"
 )

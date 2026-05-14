@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apiserver/pkg/authentication/authenticator"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/utils/clock"

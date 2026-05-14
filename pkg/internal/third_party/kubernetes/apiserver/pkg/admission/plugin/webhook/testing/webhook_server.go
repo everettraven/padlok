@@ -30,7 +30,7 @@ import (
 
 	"k8s.io/api/admission/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/testcerts"
 	testingclock "k8s.io/utils/clock/testing"
 )
 

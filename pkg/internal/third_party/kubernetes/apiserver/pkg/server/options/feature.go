@@ -22,8 +22,8 @@ import (
 	"github.com/spf13/pflag"
 
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apiserver/pkg/server"
-	utilflowcontrol "k8s.io/apiserver/pkg/util/flowcontrol"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server"
+	utilflowcontrol "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 )

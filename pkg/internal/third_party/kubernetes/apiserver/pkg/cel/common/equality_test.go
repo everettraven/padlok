@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/util/yaml"
-	"k8s.io/apiserver/pkg/cel/common"
-	"k8s.io/apiserver/pkg/cel/openapi"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/openapi"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )
 

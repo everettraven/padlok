@@ -29,9 +29,9 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apiserver/pkg/features"
-	egressselector "k8s.io/apiserver/pkg/server/egressselector"
-	"k8s.io/apiserver/pkg/util/feature"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	egressselector "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/egressselector"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"

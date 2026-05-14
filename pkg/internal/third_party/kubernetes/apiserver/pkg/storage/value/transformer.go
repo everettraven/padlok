@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/errors"
-	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
+	genericapirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 	"k8s.io/klog/v2"
 )
 

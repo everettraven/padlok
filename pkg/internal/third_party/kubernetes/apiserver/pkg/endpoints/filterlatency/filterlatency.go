@@ -24,9 +24,9 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"k8s.io/apiserver/pkg/endpoints/metrics"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/apiserver/pkg/server/httplog"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/metrics"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/httplog"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/clock"
 )

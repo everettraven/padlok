@@ -19,8 +19,8 @@ package openapi
 import (
 	"github.com/google/cel-go/common/types/ref"
 
-	apiservercel "k8s.io/apiserver/pkg/cel"
-	"k8s.io/apiserver/pkg/cel/common"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )
 

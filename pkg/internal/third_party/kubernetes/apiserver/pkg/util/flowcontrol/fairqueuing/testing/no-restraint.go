@@ -19,10 +19,10 @@ package testing
 import (
 	"context"
 
-	"k8s.io/apiserver/pkg/util/flowcontrol/debug"
-	fq "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing"
-	"k8s.io/apiserver/pkg/util/flowcontrol/metrics"
-	fcrequest "k8s.io/apiserver/pkg/util/flowcontrol/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/debug"
+	fq "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
+	fcrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 )
 
 // NewNoRestraintFactory makes a QueueSetFactory that produces

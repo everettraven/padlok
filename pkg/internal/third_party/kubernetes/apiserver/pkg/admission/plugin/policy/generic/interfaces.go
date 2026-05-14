@@ -19,7 +19,7 @@ package generic
 import (
 	"context"
 
-	"k8s.io/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
 )
 
 // Hook represents a dynamic admission hook. The hook may be a webhook or a

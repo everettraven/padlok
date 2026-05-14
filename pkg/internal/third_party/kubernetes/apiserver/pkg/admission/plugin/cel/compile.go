@@ -22,12 +22,12 @@ import (
 	"github.com/google/cel-go/cel"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	celconfig "k8s.io/apiserver/pkg/apis/cel"
-	apiservercel "k8s.io/apiserver/pkg/cel"
-	"k8s.io/apiserver/pkg/cel/common"
-	"k8s.io/apiserver/pkg/cel/environment"
-	"k8s.io/apiserver/pkg/cel/library"
-	"k8s.io/apiserver/pkg/cel/mutation"
+	celconfig "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/cel"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/library"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/mutation"
 )
 
 const (

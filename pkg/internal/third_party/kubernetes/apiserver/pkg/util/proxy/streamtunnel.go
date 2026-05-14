@@ -33,7 +33,7 @@ import (
 
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	constants "k8s.io/apimachinery/pkg/util/portforward"
-	"k8s.io/apiserver/pkg/util/proxy/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/proxy/metrics"
 	"k8s.io/client-go/tools/portforward"
 	"k8s.io/klog/v2"
 	"k8s.io/streaming/pkg/httpstream"

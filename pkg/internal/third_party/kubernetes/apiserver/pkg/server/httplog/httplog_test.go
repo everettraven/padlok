@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apiserver/pkg/endpoints/responsewriter"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/responsewriter"
 )
 
 func TestDefaultStacktracePred(t *testing.T) {

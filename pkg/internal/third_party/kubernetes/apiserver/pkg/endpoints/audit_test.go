@@ -30,10 +30,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
-	"k8s.io/apiserver/pkg/endpoints/request"
-	genericapitesting "k8s.io/apiserver/pkg/endpoints/testing"
-	"k8s.io/apiserver/pkg/registry/rest"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	genericapitesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/testing"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/registry/rest"
 )
 
 type fakeAuditSink struct {

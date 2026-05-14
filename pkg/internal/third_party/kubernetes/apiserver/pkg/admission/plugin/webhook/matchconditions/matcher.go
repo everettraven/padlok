@@ -29,11 +29,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apiserver/pkg/admission"
-	admissionmetrics "k8s.io/apiserver/pkg/admission/metrics"
-	celplugin "k8s.io/apiserver/pkg/admission/plugin/cel"
-	celconfig "k8s.io/apiserver/pkg/apis/cel"
-	"k8s.io/apiserver/pkg/authorization/authorizer"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	admissionmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/metrics"
+	celplugin "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/cel"
+	celconfig "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/authorizer"
 	"k8s.io/klog/v2"
 )
 

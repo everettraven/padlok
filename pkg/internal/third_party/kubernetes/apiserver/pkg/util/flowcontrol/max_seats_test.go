@@ -22,9 +22,9 @@ import (
 
 	flowcontrolv1 "k8s.io/api/flowcontrol/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	fqs "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/queueset"
-	"k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
-	"k8s.io/apiserver/pkg/util/flowcontrol/metrics"
+	fqs "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/queueset"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
 	"k8s.io/client-go/informers"
 	clientsetfake "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/utils/ptr"

@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	"k8s.io/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 )

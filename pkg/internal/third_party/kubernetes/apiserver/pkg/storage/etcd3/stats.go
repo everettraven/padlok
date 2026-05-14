@@ -27,7 +27,7 @@ import (
 	"go.etcd.io/etcd/api/v3/mvccpb"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
 	"k8s.io/klog/v2"
 )
 

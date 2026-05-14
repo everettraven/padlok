@@ -19,7 +19,7 @@ package flowcontrol
 import (
 	"fmt"
 
-	fcfmt "k8s.io/apiserver/pkg/util/flowcontrol/format"
+	fcfmt "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/format"
 )
 
 var _ fmt.GoStringer = RequestDigest{}

@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apiserver/pkg/util/flowcontrol/counter"
-	"k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
-	testeventclock "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/counter"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
+	testeventclock "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
 	"k8s.io/klog/v2"
 )
 

@@ -18,7 +18,7 @@ package policy
 
 import (
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 )
 
 // AllStages returns all possible stages

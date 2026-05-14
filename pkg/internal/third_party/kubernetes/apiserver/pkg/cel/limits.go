@@ -16,7 +16,7 @@ limitations under the License.
 
 package cel
 
-import celconfig "k8s.io/apiserver/pkg/apis/cel"
+import celconfig "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/cel"
 
 const (
 	// DefaultMaxRequestSizeBytes is the size of the largest request that will be accepted

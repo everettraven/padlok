@@ -24,11 +24,11 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apiserver/pkg/registry/generic"
-	"k8s.io/apiserver/pkg/storage"
-	cacherstorage "k8s.io/apiserver/pkg/storage/cacher"
-	"k8s.io/apiserver/pkg/storage/storagebackend"
-	"k8s.io/apiserver/pkg/storage/storagebackend/factory"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/registry/generic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	cacherstorage "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/storagebackend"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/storagebackend/factory"
 	"k8s.io/client-go/tools/cache"
 )
 

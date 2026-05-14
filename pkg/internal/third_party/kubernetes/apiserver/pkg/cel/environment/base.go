@@ -29,11 +29,11 @@ import (
 	"golang.org/x/sync/singleflight"
 
 	"k8s.io/apimachinery/pkg/util/version"
-	celconfig "k8s.io/apiserver/pkg/apis/cel"
-	"k8s.io/apiserver/pkg/cel/library"
-	genericfeatures "k8s.io/apiserver/pkg/features"
-	"k8s.io/apiserver/pkg/util/compatibility"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	celconfig "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/library"
+	genericfeatures "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/compatibility"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	basecompatibility "k8s.io/component-base/compatibility"
 )
 

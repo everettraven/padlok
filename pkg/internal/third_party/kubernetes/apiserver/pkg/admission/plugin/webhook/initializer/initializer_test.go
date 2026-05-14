@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"testing"
 
-	"k8s.io/apiserver/pkg/admission"
-	"k8s.io/apiserver/pkg/util/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/webhook"
 )
 
 type doNothingAdmission struct{}

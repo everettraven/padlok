@@ -28,8 +28,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apiserver/pkg/storage/value"
-	aestransformer "k8s.io/apiserver/pkg/storage/value/encrypt/aes"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
+	aestransformer "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value/encrypt/aes"
 )
 
 const (

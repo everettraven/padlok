@@ -20,12 +20,12 @@ import (
 	"fmt"
 
 	"k8s.io/api/admissionregistration/v1"
-	plugincel "k8s.io/apiserver/pkg/admission/plugin/cel"
-	"k8s.io/apiserver/pkg/admission/plugin/policy/mutating/patch"
-	"k8s.io/apiserver/pkg/admission/plugin/policy/validating"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/matchconditions"
-	apiservercel "k8s.io/apiserver/pkg/cel"
-	"k8s.io/apiserver/pkg/cel/environment"
+	plugincel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/mutating/patch"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/validating"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/matchconditions"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
 )
 
 // compilePolicy compiles the policy into a PolicyEvaluator

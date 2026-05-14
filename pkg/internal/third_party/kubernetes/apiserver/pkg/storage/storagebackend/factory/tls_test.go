@@ -32,11 +32,11 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/apis/example"
-	examplev1 "k8s.io/apiserver/pkg/apis/example/v1"
-	"k8s.io/apiserver/pkg/storage/etcd3/testing/testingcert"
-	"k8s.io/apiserver/pkg/storage/etcd3/testserver"
-	"k8s.io/apiserver/pkg/storage/storagebackend"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example"
+	examplev1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/testing/testingcert"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/testserver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/storagebackend"
 )
 
 var scheme = runtime.NewScheme()

@@ -27,7 +27,7 @@ import (
 	"github.com/google/cel-go/common/types/ref"
 	"github.com/google/cel-go/common/types/traits"
 
-	"k8s.io/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 )
 
 // panicOnUnknown makes cost estimate functions panic on unrecognized functions.

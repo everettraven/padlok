@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 )
 
 var (

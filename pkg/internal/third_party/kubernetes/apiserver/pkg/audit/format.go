@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 )
 
 // EventString creates a 1-line text representation of an audit event, using a subset of the

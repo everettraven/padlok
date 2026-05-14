@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/admission/plugin/manifest"
-	"k8s.io/apiserver/pkg/admission/plugin/policy/config/apis/policyconfig"
-	v1 "k8s.io/apiserver/pkg/admission/plugin/policy/config/apis/policyconfig/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/manifest"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/config/apis/policyconfig"
+	v1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/config/apis/policyconfig/v1"
 )
 
 var (

@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	v1beta1 "k8s.io/apiserver/pkg/server/statusz/api/v1beta1"
+	v1beta1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/statusz/api/v1beta1"
 )
 
 // statuszTextSerializer implements runtime.Serializer for text/plain output.

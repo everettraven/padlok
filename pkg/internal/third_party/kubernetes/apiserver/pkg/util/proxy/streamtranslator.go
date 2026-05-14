@@ -27,7 +27,7 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	constants "k8s.io/apimachinery/pkg/util/remotecommand"
-	"k8s.io/apiserver/pkg/util/proxy/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/proxy/metrics"
 	"k8s.io/client-go/tools/remotecommand"
 	clientspdy "k8s.io/client-go/transport/spdy"
 	"k8s.io/client-go/util/exec"

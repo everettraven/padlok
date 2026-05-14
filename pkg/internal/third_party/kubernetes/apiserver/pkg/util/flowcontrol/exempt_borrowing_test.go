@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	fcboot "k8s.io/apiserver/pkg/apis/flowcontrol/bootstrap"
-	fqs "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/queueset"
-	testeventclock "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
-	"k8s.io/apiserver/pkg/util/flowcontrol/metrics"
+	fcboot "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/flowcontrol/bootstrap"
+	fqs "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/queueset"
+	testeventclock "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/testing/eventclock"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
 	"k8s.io/client-go/informers"
 	clientsetfake "k8s.io/client-go/kubernetes/fake"
 

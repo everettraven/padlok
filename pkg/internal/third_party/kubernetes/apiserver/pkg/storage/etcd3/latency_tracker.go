@@ -21,7 +21,7 @@ import (
 	"time"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
-	endpointsrequest "k8s.io/apiserver/pkg/endpoints/request"
+	endpointsrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 )
 
 // NewETCDLatencyTracker returns an implementation of

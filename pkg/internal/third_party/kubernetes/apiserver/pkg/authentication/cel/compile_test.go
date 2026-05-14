@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	authenticationv1 "k8s.io/api/authentication/v1"
-	apiservercel "k8s.io/apiserver/pkg/cel"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 )
 
 func TestCompileClaimsExpression(t *testing.T) {

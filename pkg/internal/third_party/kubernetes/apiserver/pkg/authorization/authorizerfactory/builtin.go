@@ -20,8 +20,8 @@ import (
 	"context"
 	"errors"
 
-	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/apiserver/pkg/authorization/authorizer"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/authorizer"
 )
 
 // alwaysAllowAuthorizer is an implementation of authorizer.Attributes

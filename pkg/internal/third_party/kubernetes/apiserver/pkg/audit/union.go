@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"k8s.io/apimachinery/pkg/util/errors"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 )
 
 // Union returns an audit Backend which logs events to a set of backends. The returned

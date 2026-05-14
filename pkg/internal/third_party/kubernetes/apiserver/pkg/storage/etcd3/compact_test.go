@@ -24,7 +24,7 @@ import (
 	etcdrpc "go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"k8s.io/apiserver/pkg/storage/etcd3/testserver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/testserver"
 	testingclock "k8s.io/utils/clock/testing"
 )
 

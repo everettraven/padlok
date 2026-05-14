@@ -19,7 +19,7 @@ package validation
 import (
 	"testing"
 
-	"k8s.io/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 )
 
 func TestValidatePolicy(t *testing.T) {

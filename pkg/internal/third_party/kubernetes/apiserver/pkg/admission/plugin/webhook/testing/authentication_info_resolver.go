@@ -19,8 +19,8 @@ package testing
 import (
 	"sync/atomic"
 
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts"
-	"k8s.io/apiserver/pkg/util/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/testcerts"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/webhook"
 	"k8s.io/client-go/rest"
 )
 

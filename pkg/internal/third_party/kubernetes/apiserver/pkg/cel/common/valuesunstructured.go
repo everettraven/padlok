@@ -29,7 +29,7 @@ import (
 	"k8s.io/kube-openapi/pkg/validation/strfmt"
 
 	"k8s.io/apimachinery/pkg/api/equality"
-	"k8s.io/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 )
 
 // UnstructuredToVal converts a Kubernetes unstructured data element to a CEL Val.

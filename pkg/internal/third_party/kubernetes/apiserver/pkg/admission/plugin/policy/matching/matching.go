@@ -23,13 +23,13 @@ import (
 	v1 "k8s.io/api/admissionregistration/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
 	"k8s.io/client-go/kubernetes"
 	listersv1 "k8s.io/client-go/listers/core/v1"
 
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/predicates/namespace"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/predicates/object"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/predicates/rules"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/predicates/namespace"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/predicates/object"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/predicates/rules"
 )
 
 type MatchCriteria interface {

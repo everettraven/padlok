@@ -24,9 +24,9 @@ import (
 	"github.com/google/cel-go/cel"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apiserver/pkg/admission"
-	celconfig "k8s.io/apiserver/pkg/apis/cel"
-	"k8s.io/apiserver/pkg/cel/environment"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	celconfig "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/environment"
 )
 
 type testVariable struct {

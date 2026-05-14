@@ -22,7 +22,7 @@ import (
 	"time"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
-	"k8s.io/apiserver/pkg/storage/etcd3/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/metrics"
 )
 
 const (

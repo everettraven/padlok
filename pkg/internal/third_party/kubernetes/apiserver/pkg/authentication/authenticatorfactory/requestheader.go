@@ -17,8 +17,8 @@ limitations under the License.
 package authenticatorfactory
 
 import (
-	"k8s.io/apiserver/pkg/authentication/request/headerrequest"
-	"k8s.io/apiserver/pkg/server/dynamiccertificates"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/request/headerrequest"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/dynamiccertificates"
 )
 
 type RequestHeaderConfig struct {

@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/pflag"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apiserver/pkg/server"
-	"k8s.io/apiserver/pkg/server/resourceconfig"
-	serverstore "k8s.io/apiserver/pkg/server/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/resourceconfig"
+	serverstore "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/storage"
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog/v2"
 )

@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	fcrequest "k8s.io/apiserver/pkg/util/flowcontrol/request"
+	fcrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 )
 
 func TestFIFOWithEnqueueDequeueSingleRequest(t *testing.T) {

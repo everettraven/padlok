@@ -17,7 +17,7 @@ limitations under the License.
 package validation
 
 import (
-	resourcequotaapi "k8s.io/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
+	resourcequotaapi "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
 
 	"k8s.io/apimachinery/pkg/util/validation/field"
 )

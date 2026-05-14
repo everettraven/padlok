@@ -28,13 +28,13 @@ import (
 	flowcontrol "k8s.io/api/flowcontrol/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
-	fcboot "k8s.io/apiserver/pkg/apis/flowcontrol/bootstrap"
-	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/apiserver/pkg/endpoints/request"
-	fq "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing"
-	fqtesting "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/testing"
-	fcfmt "k8s.io/apiserver/pkg/util/flowcontrol/format"
-	"k8s.io/apiserver/pkg/util/flowcontrol/metrics"
+	fcboot "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/flowcontrol/bootstrap"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	fq "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing"
+	fqtesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/testing"
+	fcfmt "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/format"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
 )
 
 var noRestraintQSF = fqtesting.NewNoRestraintFactory()

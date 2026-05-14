@@ -26,10 +26,10 @@ import (
 
 	admissionregistrationv1 "k8s.io/api/admissionregistration/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apiserver/pkg/admission/plugin/manifest/metrics"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook"
-	stagingloader "k8s.io/apiserver/pkg/admission/plugin/webhook/manifest/loader"
-	"k8s.io/apiserver/pkg/util/filesystem"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/manifest/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook"
+	stagingloader "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/manifest/loader"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/filesystem"
 	"k8s.io/klog/v2"
 )
 

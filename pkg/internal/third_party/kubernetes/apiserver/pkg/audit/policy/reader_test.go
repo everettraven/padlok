@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 
 	// import to call webhook's init() function to register audit.Policy to schema
-	_ "k8s.io/apiserver/plugin/pkg/audit/webhook"
+	_ "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/plugin/pkg/audit/webhook"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"

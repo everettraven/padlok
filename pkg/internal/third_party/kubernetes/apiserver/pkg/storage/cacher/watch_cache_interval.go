@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/apiserver/pkg/storage/cacher/store"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher/store"
 )
 
 // watchCacheInterval serves as an abstraction over a source

@@ -19,7 +19,7 @@ package mutating
 import (
 	"strings"
 
-	celmetrics "k8s.io/apiserver/pkg/admission/plugin/policy/mutating/metrics"
+	celmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/mutating/metrics"
 )
 
 // ErrorType decodes the error to determine the error type

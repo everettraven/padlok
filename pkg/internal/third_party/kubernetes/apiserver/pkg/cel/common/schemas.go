@@ -22,7 +22,7 @@ import (
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/common/types"
 
-	apiservercel "k8s.io/apiserver/pkg/cel"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )
 

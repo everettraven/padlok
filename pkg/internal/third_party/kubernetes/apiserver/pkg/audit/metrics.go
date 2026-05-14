@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/klog/v2"

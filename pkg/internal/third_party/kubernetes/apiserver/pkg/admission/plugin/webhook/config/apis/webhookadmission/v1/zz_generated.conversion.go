@@ -24,7 +24,7 @@ package v1
 import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	webhookadmission "k8s.io/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission"
+	webhookadmission "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/config/apis/webhookadmission"
 )
 
 func init() {

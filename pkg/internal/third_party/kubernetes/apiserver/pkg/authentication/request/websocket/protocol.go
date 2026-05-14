@@ -24,7 +24,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"k8s.io/apiserver/pkg/authentication/authenticator"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
 	"k8s.io/streaming/pkg/httpstream/wsstream"
 )
 

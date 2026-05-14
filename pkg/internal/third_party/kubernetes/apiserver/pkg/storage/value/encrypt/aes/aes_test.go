@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 )
 
 func TestGCMDataStable(t *testing.T) {

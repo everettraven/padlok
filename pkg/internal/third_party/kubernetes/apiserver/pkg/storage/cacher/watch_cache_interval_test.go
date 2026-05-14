@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	"k8s.io/apiserver/pkg/storage/cacher/store"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher/store"
 )
 
 func intervalFromEvents(events []*watchCacheEvent) *watchCacheInterval {

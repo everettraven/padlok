@@ -34,12 +34,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	utilvalidation "k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	api "k8s.io/apiserver/pkg/apis/apiserver"
-	authenticationcel "k8s.io/apiserver/pkg/authentication/cel"
-	authorizationcel "k8s.io/apiserver/pkg/authorization/cel"
-	"k8s.io/apiserver/pkg/cel"
-	"k8s.io/apiserver/pkg/features"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	api "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
+	authenticationcel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/cel"
+	authorizationcel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/features"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	"k8s.io/client-go/util/cert"
 )
 

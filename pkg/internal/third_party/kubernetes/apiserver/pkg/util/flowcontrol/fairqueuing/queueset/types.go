@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	genericrequest "k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/apiserver/pkg/util/flowcontrol/debug"
-	fq "k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing"
-	"k8s.io/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
-	fcrequest "k8s.io/apiserver/pkg/util/flowcontrol/request"
+	genericrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/debug"
+	fq "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/fairqueuing/promise"
+	fcrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 )
 
 // request is a temporary container for "requests" with additional

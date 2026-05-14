@@ -20,11 +20,11 @@ import (
 	"context"
 	"io"
 
-	"k8s.io/apiserver/pkg/admission"
-	"k8s.io/apiserver/pkg/admission/configuration"
-	"k8s.io/apiserver/pkg/admission/initializer"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/generic"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook/manifest/source"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/configuration"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/initializer"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/generic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/manifest/source"
 )
 
 const (

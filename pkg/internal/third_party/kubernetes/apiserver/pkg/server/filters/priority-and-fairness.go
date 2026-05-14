@@ -28,12 +28,12 @@ import (
 
 	flowcontrol "k8s.io/api/flowcontrol/v1"
 	apitypes "k8s.io/apimachinery/pkg/types"
-	epmetrics "k8s.io/apiserver/pkg/endpoints/metrics"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/apiserver/pkg/server/httplog"
-	utilflowcontrol "k8s.io/apiserver/pkg/util/flowcontrol"
-	fcmetrics "k8s.io/apiserver/pkg/util/flowcontrol/metrics"
-	flowcontrolrequest "k8s.io/apiserver/pkg/util/flowcontrol/request"
+	epmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/metrics"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/httplog"
+	utilflowcontrol "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol"
+	fcmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
+	flowcontrolrequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 	"k8s.io/klog/v2"
 	utilsclock "k8s.io/utils/clock"
 )

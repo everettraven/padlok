@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/api/apitesting/roundtrip"
-	"k8s.io/apiserver/pkg/apis/audit/fuzzer"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit/fuzzer"
 )
 
 func TestRoundTrip(t *testing.T) {

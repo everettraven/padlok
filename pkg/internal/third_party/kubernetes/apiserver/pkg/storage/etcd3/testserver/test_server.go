@@ -32,7 +32,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc"
-	storagetesting "k8s.io/apiserver/pkg/storage/testing"
+	storagetesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/testing"
 )
 
 // getAvailablePort returns a TCP port that is available for binding.

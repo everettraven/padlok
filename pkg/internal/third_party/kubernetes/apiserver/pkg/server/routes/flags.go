@@ -26,7 +26,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"k8s.io/apiserver/pkg/server/mux"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/mux"
 )
 
 var (

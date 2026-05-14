@@ -23,11 +23,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"k8s.io/apimachinery/pkg/runtime"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
-	auditv1 "k8s.io/apiserver/pkg/apis/audit/v1"
-	"k8s.io/apiserver/plugin/pkg/audit/fake"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
+	auditv1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/plugin/pkg/audit/fake"
 	// Importing just for the schema definitions.
-	_ "k8s.io/apiserver/plugin/pkg/audit/webhook"
+	_ "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/plugin/pkg/audit/webhook"
 )
 
 var (

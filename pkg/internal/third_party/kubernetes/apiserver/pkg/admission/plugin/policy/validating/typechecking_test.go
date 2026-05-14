@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apiserver/pkg/cel/openapi/resolver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/openapi/resolver"
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 )

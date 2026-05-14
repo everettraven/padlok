@@ -19,9 +19,9 @@ package fairqueuing
 import (
 	"context"
 
-	"k8s.io/apiserver/pkg/util/flowcontrol/debug"
-	"k8s.io/apiserver/pkg/util/flowcontrol/metrics"
-	"k8s.io/apiserver/pkg/util/flowcontrol/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/debug"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol/request"
 )
 
 // QueueSetFactory is used to create QueueSet objects.  Creation, like

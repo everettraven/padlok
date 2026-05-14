@@ -19,7 +19,7 @@ package warning
 import (
 	restful "github.com/emicklei/go-restful/v3"
 
-	"k8s.io/apiserver/pkg/warning"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/warning"
 )
 
 // AddWarningsHandler returns a handler that adds the provided warnings to all requests,

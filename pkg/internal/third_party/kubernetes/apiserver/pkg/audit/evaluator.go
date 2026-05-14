@@ -17,8 +17,8 @@ limitations under the License.
 package audit
 
 import (
-	"k8s.io/apiserver/pkg/apis/audit"
-	"k8s.io/apiserver/pkg/authorization/authorizer"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/authorizer"
 )
 
 // RequestAuditConfig is the evaluated audit configuration that is applicable to

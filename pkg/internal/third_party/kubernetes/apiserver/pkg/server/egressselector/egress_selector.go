@@ -35,8 +35,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 
 	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apiserver/pkg/apis/apiserver"
-	egressmetrics "k8s.io/apiserver/pkg/server/egressselector/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
+	egressmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/egressselector/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/component-base/tracing"
 	"k8s.io/klog/v2"

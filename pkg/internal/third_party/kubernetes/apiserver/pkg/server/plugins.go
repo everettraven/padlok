@@ -18,12 +18,12 @@ package server
 
 // This file exists to force the desired plugin implementations to be linked into genericapi pkg.
 import (
-	"k8s.io/apiserver/pkg/admission"
-	"k8s.io/apiserver/pkg/admission/plugin/namespace/lifecycle"
-	mutatingadmissionpolicy "k8s.io/apiserver/pkg/admission/plugin/policy/mutating"
-	validatingadmissionpolicy "k8s.io/apiserver/pkg/admission/plugin/policy/validating"
-	mutatingwebhook "k8s.io/apiserver/pkg/admission/plugin/webhook/mutating"
-	validatingwebhook "k8s.io/apiserver/pkg/admission/plugin/webhook/validating"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/namespace/lifecycle"
+	mutatingadmissionpolicy "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/mutating"
+	validatingadmissionpolicy "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/policy/validating"
+	mutatingwebhook "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/mutating"
+	validatingwebhook "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/validating"
 )
 
 // RegisterAllAdmissionPlugins registers all admission plugins

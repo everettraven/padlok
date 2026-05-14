@@ -22,7 +22,7 @@ import (
 	"hash"
 	"sync"
 
-	"k8s.io/apiserver/pkg/util/configmetrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/configmetrics"
 	"k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 )

@@ -25,7 +25,7 @@ import (
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/server/healthz"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/healthz"
 	restclient "k8s.io/client-go/rest"
 	"k8s.io/klog/v2"
 )

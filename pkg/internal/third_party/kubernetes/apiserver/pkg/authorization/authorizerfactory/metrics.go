@@ -20,8 +20,8 @@ import (
 	"context"
 	"sync"
 
-	celmetrics "k8s.io/apiserver/pkg/authorization/cel"
-	webhookmetrics "k8s.io/apiserver/plugin/pkg/authorizer/webhook/metrics"
+	celmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/cel"
+	webhookmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/plugin/pkg/authorizer/webhook/metrics"
 	compbasemetrics "k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 )

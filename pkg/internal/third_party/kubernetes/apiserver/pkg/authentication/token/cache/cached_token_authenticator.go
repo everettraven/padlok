@@ -33,9 +33,9 @@ import (
 	"golang.org/x/sync/singleflight"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apiserver/pkg/audit"
-	"k8s.io/apiserver/pkg/authentication/authenticator"
-	"k8s.io/apiserver/pkg/warning"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/warning"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/clock"
 )

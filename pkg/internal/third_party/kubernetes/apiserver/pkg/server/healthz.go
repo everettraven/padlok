@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apiserver/pkg/server/healthz"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/healthz"
 	"k8s.io/utils/clock"
 )
 

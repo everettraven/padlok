@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"time"
 
-	"k8s.io/apiserver/pkg/storage/value"
-	"k8s.io/apiserver/pkg/storage/value/encrypt/envelope/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value/encrypt/envelope/metrics"
 	"k8s.io/utils/lru"
 
 	"golang.org/x/crypto/cryptobyte"

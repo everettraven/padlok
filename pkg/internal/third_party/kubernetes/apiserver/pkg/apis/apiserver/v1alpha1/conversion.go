@@ -18,7 +18,7 @@ package v1alpha1
 
 import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
-	apiserver "k8s.io/apiserver/pkg/apis/apiserver"
+	apiserver "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
 )
 
 func Convert_v1alpha1_EgressSelection_To_apiserver_EgressSelection(in *EgressSelection, out *apiserver.EgressSelection, s conversion.Scope) error {

@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/net"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/warning"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/warning"
 )
 
 // WithWarningRecorder attaches a deduplicating k8s.io/apiserver/pkg/warning#WarningRecorder to the request context.

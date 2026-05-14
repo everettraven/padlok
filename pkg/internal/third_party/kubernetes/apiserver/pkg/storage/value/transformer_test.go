@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
+	genericapirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 	"k8s.io/component-base/metrics/legacyregistry"
 	"k8s.io/component-base/metrics/testutil"
 	"k8s.io/klog/v2"

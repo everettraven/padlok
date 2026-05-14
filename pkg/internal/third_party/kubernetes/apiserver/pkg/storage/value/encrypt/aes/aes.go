@@ -30,7 +30,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/apiserver/pkg/storage/value"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value"
 	"k8s.io/klog/v2"
 )
 

@@ -20,8 +20,8 @@ import (
 	"net/http"
 
 	"k8s.io/apimachinery/pkg/types"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
-	"k8s.io/apiserver/pkg/audit"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
 
 	"github.com/google/uuid"
 )

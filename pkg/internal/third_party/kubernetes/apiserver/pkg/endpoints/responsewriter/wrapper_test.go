@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 )
 
 func TestWithHTTP1(t *testing.T) {

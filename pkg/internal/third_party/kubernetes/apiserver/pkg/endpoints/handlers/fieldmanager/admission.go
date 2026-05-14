@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/util/managedfields"
-	"k8s.io/apiserver/pkg/admission"
-	"k8s.io/apiserver/pkg/warning"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/warning"
 )
 
 // InvalidManagedFieldsAfterMutatingAdmissionWarningFormat is the warning that a client receives

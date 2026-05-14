@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"k8s.io/apiserver/pkg/server/mux"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/mux"
 )
 
 // Profiling adds handlers for pprof under /debug/pprof.

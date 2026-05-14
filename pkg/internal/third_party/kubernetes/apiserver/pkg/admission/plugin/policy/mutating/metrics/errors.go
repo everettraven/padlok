@@ -19,7 +19,7 @@ package metrics
 import (
 	"errors"
 
-	apiservercel "k8s.io/apiserver/pkg/cel"
+	apiservercel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel"
 )
 
 // ErrorType decodes the error to determine the error type

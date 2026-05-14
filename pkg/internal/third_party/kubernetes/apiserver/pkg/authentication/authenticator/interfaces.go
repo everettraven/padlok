@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/http"
 
-	"k8s.io/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
 )
 
 // Token checks a string value against a backing authentication store and

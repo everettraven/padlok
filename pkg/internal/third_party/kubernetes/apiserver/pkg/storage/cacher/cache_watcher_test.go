@@ -33,13 +33,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/apiserver/pkg/storage"
-	"k8s.io/apiserver/pkg/storage/cacher/store"
-	utilflowcontrol "k8s.io/apiserver/pkg/util/flowcontrol"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher/store"
+	utilflowcontrol "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/flowcontrol"
 	"k8s.io/client-go/tools/cache"
 	testingclock "k8s.io/utils/clock/testing"
 
-	cachertesting "k8s.io/apiserver/pkg/storage/cacher/testing"
+	cachertesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/cacher/testing"
 )
 
 // verifies the cacheWatcher.process goroutine is properly cleaned up even if

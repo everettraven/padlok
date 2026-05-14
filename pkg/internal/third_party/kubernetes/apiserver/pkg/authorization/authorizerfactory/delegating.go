@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apiserver/pkg/authorization/authorizer"
-	authorizationcel "k8s.io/apiserver/pkg/authorization/cel"
-	"k8s.io/apiserver/plugin/pkg/authorizer/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/authorizer"
+	authorizationcel "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/plugin/pkg/authorizer/webhook"
 	authorizationclient "k8s.io/client-go/kubernetes/typed/authorization/v1"
 )
 

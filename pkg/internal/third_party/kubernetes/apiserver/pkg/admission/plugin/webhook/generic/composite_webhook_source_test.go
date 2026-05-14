@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	v1 "k8s.io/api/admissionregistration/v1"
-	"k8s.io/apiserver/pkg/admission/plugin/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook"
 )
 
 // mockSource implements Source for testing.

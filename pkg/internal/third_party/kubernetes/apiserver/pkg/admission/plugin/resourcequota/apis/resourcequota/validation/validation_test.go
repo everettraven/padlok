@@ -19,7 +19,7 @@ package validation
 import (
 	"testing"
 
-	resourcequotaapi "k8s.io/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
+	resourcequotaapi "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
 )
 
 func TestValidateConfiguration(t *testing.T) {

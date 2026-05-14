@@ -19,7 +19,7 @@ package generic
 import (
 	"sync"
 
-	"k8s.io/apiserver/pkg/admission/plugin/webhook"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook"
 )
 
 // compositeWebhookSource combines multiple webhook sources into a single source.

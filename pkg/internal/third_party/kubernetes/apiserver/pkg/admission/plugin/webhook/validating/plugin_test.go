@@ -26,10 +26,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"k8s.io/apimachinery/pkg/api/errors"
-	admissionmetrics "k8s.io/apiserver/pkg/admission/metrics"
-	webhooktesting "k8s.io/apiserver/pkg/admission/plugin/webhook/testing"
-	auditinternal "k8s.io/apiserver/pkg/apis/audit"
-	"k8s.io/apiserver/pkg/endpoints/request"
+	admissionmetrics "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/metrics"
+	webhooktesting "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/webhook/testing"
+	auditinternal "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 	"k8s.io/component-base/metrics/testutil"
 	clocktesting "k8s.io/utils/clock/testing"
 )

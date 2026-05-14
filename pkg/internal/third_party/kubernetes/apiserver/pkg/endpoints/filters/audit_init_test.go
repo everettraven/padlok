@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"k8s.io/apiserver/pkg/audit"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/audit"
 )
 
 func TestWithAuditID(t *testing.T) {

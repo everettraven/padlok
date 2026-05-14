@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
 	apimachineryversion "k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/apiserver/pkg/registry/rest"
-	"k8s.io/apiserver/pkg/server/resourceconfig"
-	serverstorage "k8s.io/apiserver/pkg/server/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/registry/rest"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/resourceconfig"
+	serverstorage "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/storage"
 	"k8s.io/utils/dump"
 
 	"github.com/stretchr/testify/require"

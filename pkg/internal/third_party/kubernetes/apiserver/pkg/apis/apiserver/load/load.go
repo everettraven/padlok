@@ -23,9 +23,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	api "k8s.io/apiserver/pkg/apis/apiserver"
-	"k8s.io/apiserver/pkg/apis/apiserver/install"
-	externalapi "k8s.io/apiserver/pkg/apis/apiserver/v1alpha1"
+	api "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver/install"
+	externalapi "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver/v1alpha1"
 )
 
 var (

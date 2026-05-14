@@ -22,8 +22,8 @@ import (
 	"fmt"
 
 	flowcontrol "k8s.io/api/flowcontrol/v1"
-	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/apiserver/pkg/endpoints/request"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/user"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 )
 
 // This file provides an easy way to mark a value for formatting to

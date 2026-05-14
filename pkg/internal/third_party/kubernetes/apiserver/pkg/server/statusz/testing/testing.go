@@ -25,8 +25,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	cbor "k8s.io/apimachinery/pkg/runtime/serializer/cbor/direct"
 	"k8s.io/apimachinery/pkg/util/yaml"
-	"k8s.io/apiserver/pkg/server/statusz/api/v1alpha1"
-	"k8s.io/apiserver/pkg/server/statusz/api/v1beta1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/statusz/api/v1alpha1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/statusz/api/v1beta1"
 )
 
 // VerifyStructuredResponse verifies that the response body matches the expected static fields

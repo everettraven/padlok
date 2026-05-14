@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	utilwaitgroup "k8s.io/apimachinery/pkg/util/waitgroup"
-	apirequest "k8s.io/apiserver/pkg/endpoints/request"
+	apirequest "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/endpoints/request"
 )
 
 func TestWithRetryAfter(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apiserver/pkg/storage/value/encrypt/envelope/metrics"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/value/encrypt/envelope/metrics"
 	"k8s.io/klog/v2"
 	kmsapi "k8s.io/kms/apis/v2"
 	kmsservice "k8s.io/kms/pkg/service"

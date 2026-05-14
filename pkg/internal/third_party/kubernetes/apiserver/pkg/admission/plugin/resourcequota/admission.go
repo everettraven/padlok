@@ -23,12 +23,12 @@ import (
 	"time"
 
 	corev1 "k8s.io/api/core/v1"
-	"k8s.io/apiserver/pkg/admission"
-	genericadmissioninitializer "k8s.io/apiserver/pkg/admission/initializer"
-	resourcequotaapi "k8s.io/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
-	"k8s.io/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota/validation"
-	quota "k8s.io/apiserver/pkg/quota/v1"
-	"k8s.io/apiserver/pkg/quota/v1/generic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
+	genericadmissioninitializer "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/initializer"
+	resourcequotaapi "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission/plugin/resourcequota/apis/resourcequota/validation"
+	quota "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/quota/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/quota/v1/generic"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 )

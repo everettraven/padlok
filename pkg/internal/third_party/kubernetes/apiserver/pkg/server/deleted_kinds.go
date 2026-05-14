@@ -30,8 +30,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	apimachineryversion "k8s.io/apimachinery/pkg/util/version"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/apiserver/pkg/registry/rest"
-	serverstorage "k8s.io/apiserver/pkg/server/storage"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/registry/rest"
+	serverstorage "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/server/storage"
 	"k8s.io/klog/v2"
 )
 

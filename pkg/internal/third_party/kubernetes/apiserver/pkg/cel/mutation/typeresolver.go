@@ -19,8 +19,8 @@ package mutation
 import (
 	"strings"
 
-	"k8s.io/apiserver/pkg/cel/common"
-	"k8s.io/apiserver/pkg/cel/mutation/dynamic"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/common"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/cel/mutation/dynamic"
 )
 
 // ObjectTypeName is the name of Object types that are used to declare the types of

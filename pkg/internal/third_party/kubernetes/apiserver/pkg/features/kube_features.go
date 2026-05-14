@@ -19,7 +19,7 @@ package features
 import (
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/version"
-	utilfeature "k8s.io/apiserver/pkg/util/feature"
+	utilfeature "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/util/feature"
 	"k8s.io/component-base/featuregate"
 	zpagesfeatures "k8s.io/component-base/zpages/features"
 )

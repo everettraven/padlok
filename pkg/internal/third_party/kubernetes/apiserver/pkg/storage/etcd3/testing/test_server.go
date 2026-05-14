@@ -21,8 +21,8 @@ import (
 
 	"go.etcd.io/etcd/client/v3/kubernetes"
 
-	"k8s.io/apiserver/pkg/storage/etcd3/testserver"
-	"k8s.io/apiserver/pkg/storage/storagebackend"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/etcd3/testserver"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/storagebackend"
 )
 
 // EtcdTestServer encapsulates the datastructures needed to start local instance for testing

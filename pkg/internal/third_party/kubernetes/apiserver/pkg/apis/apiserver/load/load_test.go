@@ -27,7 +27,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	api "k8s.io/apiserver/pkg/apis/apiserver"
+	api "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/apiserver"
 )
 
 var defaultConfig = &api.AuthorizationConfiguration{}

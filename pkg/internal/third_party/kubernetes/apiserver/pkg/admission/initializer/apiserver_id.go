@@ -16,7 +16,7 @@ limitations under the License.
 
 package initializer
 
-import "k8s.io/apiserver/pkg/admission"
+import "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/admission"
 
 // apiServerIDInitializer injects the API server identity into admission plugins
 // that implement WantsAPIServerID. This is used for metrics labeling in HA setups

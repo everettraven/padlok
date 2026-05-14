@@ -27,12 +27,12 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	apimachineryversion "k8s.io/apimachinery/pkg/util/version"
-	"k8s.io/apiserver/pkg/apis/example"
-	exampleinstall "k8s.io/apiserver/pkg/apis/example/install"
-	examplev1 "k8s.io/apiserver/pkg/apis/example/v1"
-	"k8s.io/apiserver/pkg/apis/example2"
-	example2install "k8s.io/apiserver/pkg/apis/example2/install"
-	"k8s.io/apiserver/pkg/storage/storagebackend"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example"
+	exampleinstall "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example/install"
+	examplev1 "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example/v1"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example2"
+	example2install "github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/apis/example2/install"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/storage/storagebackend"
 	basecompatibility "k8s.io/component-base/compatibility"
 )
 

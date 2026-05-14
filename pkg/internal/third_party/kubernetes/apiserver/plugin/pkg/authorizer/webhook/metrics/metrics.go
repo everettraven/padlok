@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"k8s.io/apiserver/pkg/authorization/cel"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authorization/cel"
 	compbasemetrics "k8s.io/component-base/metrics"
 	"k8s.io/component-base/metrics/legacyregistry"
 )
