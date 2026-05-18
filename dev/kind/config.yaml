@@ -5,6 +5,8 @@ nodes:
   extraMounts:
   - hostPath: ./dev/kind/
     containerPath: /files
+  - hostPath: ./dev/certs/padlok
+    containerPath: /webhook-certs
   kubeadmConfigPatches:
   - |
     kind: ClusterConfiguration
@@ -16,4 +18,8 @@ nodes:
           - name: authn-webhook-files
             hostPath: "/files"
             mountPath: "/files"
+            readOnly: true
+          - name: authn-webhook-certs
+            hostPath: "/webhook-certs"
+            mountPath: "/webhook-certs"
             readOnly: true

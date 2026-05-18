@@ -25,6 +25,7 @@ keycloak:
 		-v $(shell pwd)/dev/certs:/certs/ \
 		-v $(shell pwd)/dev/keycloak:/opt/keycloak/data/import/ \
 		${KEYCLOAK_IMAGE} start-dev --import-realm
+	${CONTAINER_RUNTIME} wait ${KEYCLOAK_CONTAINER_NAME} --condition running
 
 .PHONY: keycloak-certificate
 keycloak-certificate:
@@ -47,7 +48,7 @@ ISSUER ?= "https://keycloak:8443/realms/k8s"
 TOKEN_TOOL_IMAGE ?= "quay.io/rh_ee_bpalmer/oauth2cli:latest"
 .PHONY: token
 token:
-	${CONTAINER_RUNTIME} run --rm --network=kind ${TOKEN_TOOL_IMAGE} device-code --issuer ${ISSUER} --client-id ${CLIENT_ID}
+	${CONTAINER_RUNTIME} run --rm --network=kind ${TOKEN_TOOL_IMAGE} device-code --issuer ${ISSUER} --client-id ${CLIENT_ID} --tls-insecure-skip-verify
 
 WEBHOOK_CONTAINER_NAME ?= padlok
 
