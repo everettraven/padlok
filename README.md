@@ -75,7 +75,7 @@ Detailed installation and usage documentation is on its way. In the meantime, ch
 
 ## Contributing
 
-Contributions are welcome! A `CONTRIBUTING.md` guide with development setup, conventions, and contribution workflow is coming soon.
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, conventions, and contribution workflow.
 
 ## License
 
