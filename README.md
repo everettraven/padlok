@@ -71,7 +71,7 @@ jwt:
 
 ## Getting Started
 
-Detailed installation and usage documentation is on its way. In the meantime, check back on this repository or watch it for updates.
+Documentation on the `padlok` project can be found under [docs](docs/).
 
 ## Contributing
 
