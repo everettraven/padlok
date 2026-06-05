@@ -23,6 +23,7 @@
 
 - [TLS Configuration](tls-configuration.md) — Server TLS, OIDC issuer TLS, and external source TLS.
 - [Troubleshooting](troubleshooting.md) — Diagnosing authentication issues.
+- [Running on OpenShift](running-on-openshift.md) — Guide for configuring OpenShift to delegate authentication decisions to `padlok`.
 
 ## Reference
 
