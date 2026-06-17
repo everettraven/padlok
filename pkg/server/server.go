@@ -9,9 +9,9 @@ import (
 
 	// TODO: Probably do not import from openshift
 	"github.com/everettraven/padlok/pkg/handlers"
+	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
 	"github.com/openshift/library-go/pkg/crypto"
 	"github.com/spf13/pflag"
-	"github.com/everettraven/padlok/pkg/internal/third_party/kubernetes/apiserver/pkg/authentication/authenticator"
 )
 
 const (
@@ -31,6 +31,7 @@ type Instance struct {
 	tlsCipherSuites    []string
 	tlsMinVersion      string
 	tokenAuthenticator authenticator.Token
+	authenticatePath   string
 }
 
 func (i *Instance) AddFlags(fs *pflag.FlagSet) {
@@ -39,11 +40,12 @@ func (i *Instance) AddFlags(fs *pflag.FlagSet) {
 	fs.StringVar(&i.tlsCertFile, "tls-cert-file", "tls.crt", "The file path to the certificate to use for TLS connections")
 	fs.StringVar(&i.tlsMinVersion, "tls-min-version", "", fmt.Sprintf("The minimum TLS version to use for the webhook authenticator server. Must be one of %v. If not specified, it means no opinion and a default value that is subject to change over time will be used.", crypto.ValidTLSVersions()))
 	fs.StringArrayVar(&i.tlsCipherSuites, "tls-cipher-suites", []string{}, fmt.Sprintf("The TLS cipher suites to use for serving. Valid ciphers are %v. If not specified, it means no opinion and a default value that is subject to change over time will be used.", crypto.ValidCipherSuites()))
+	fs.StringVar(&i.authenticatePath, "authenticate-path", authenticatePath, "The path on which to serve the authentication endpoint.")
 }
 
 func (i *Instance) Serve(ctx context.Context) error {
 	mux := http.NewServeMux()
-	mux.Handle(authenticatePath, handlers.NewAuthenticate(i.tokenAuthenticator))
+	mux.Handle(i.authenticatePath, handlers.NewAuthenticate(i.tokenAuthenticator))
 
 	cipherSuites := crypto.DefaultCiphers()
 	tlsMinVersion := crypto.DefaultTLSVersion()
