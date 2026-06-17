@@ -24,6 +24,9 @@ func NewRunCommand() *cobra.Command {
 
 			return srv.Serve(cmd.Context())
 		},
+		FParseErrWhitelist: cobra.FParseErrWhitelist{
+			UnknownFlags: true,
+		},
 	}
 
 	srv.AddFlags(cmd.Flags())
